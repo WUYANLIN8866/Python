@@ -1,0 +1,14 @@
+import os
+import time;
+nowtime = time.asctime( time.localtime(time.time()) )
+Filelocation=input('Please enter the file path location(End with \)¡G')
+Changename=input('Please enter a change name:') 
+Deputyfilename=input('Please enter the change deputy file name(example:.txt):') 
+f=os.listdir(Filelocation)
+n=0
+for i in f:
+    oldname=Filelocation+f[n]
+    newname=Filelocation+Changename+str(n+1)+Deputyfilename
+    os.rename(oldname,newname)
+    print(oldname,'is changed name',newname,'at',nowtime)
+    n+=1

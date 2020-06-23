@@ -1,0 +1,9 @@
+printf=print
+scanf=input("")
+for=for i in range(1,10)
+
+import random
+com=random.randrange(10)
+
+PyInstaller 
+將py轉成c++可呼叫的檔案(後面接檔案)

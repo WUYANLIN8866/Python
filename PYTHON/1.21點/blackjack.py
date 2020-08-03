@@ -37,20 +37,19 @@ while(1):
                             i=i+i1;
                             print("剩餘籌碼:%d"%i)
                     else:
-                        t=c+d+f+f1;
+                        t=c+d+f+f1
                         print("你的牌是 %d %d %d %d  共%d點"%(c,d,f,f1,t))
                         com=random.randrange(20)+1
-                        if(com<16):com=com+6;
-                        if(com<16):com=com+6;
-                        print("你的點數是%d    電腦的點數是:%d"%(t,com))
+                        if(com<16):com=com+6
+                            print("你的點數是%d    電腦的點數是:%d"%(t,com))
                         if(c+d+f+f1)<com:
-                           print("你輸了");
+                           print("你輸了")
                            i=i-i1;
-                           print("剩餘籌碼:%d"%i);
+                           print("剩餘籌碼:%d"%i)
                         elif((c+d+f+f1)>com):
-                            print("你贏了\n\n");
-                            i=i+i1;
-                            print("剩餘籌碼:%d"%i);
+                            print("你贏了\n\n")
+                            i=i+i1
+                            print("剩餘籌碼:%d"%i)
                         else:
                             print("平手")
                             print("剩餘籌碼:%d"%i)
@@ -61,26 +60,26 @@ while(1):
                 if(com<16):com=com+6;
                     print("你的點數是%d    電腦的點數是:%d"%(t,com))
                 if((c+d+f)<com):
-                    print("你輸了");
+                    print("你輸了")
                     i=i-i1;
                     print("剩餘籌碼:%d"%i)
                 elif((c+d+f)>com):
-                    print("你贏了");
-                    i=i+i1;
+                    print("你贏了")
+                    i=i+i1
                     print("剩餘籌碼:%d"%i)
                 else:print("平手")
     else:
         t=c+d;
         print("你的牌是 %d %d   共%d點"%(c,d,t))
         com=random.randrange(20)+1
-        if(com<15):com=com+6;
+        if(com<15):com=com+6
         print("你的點數是%d    電腦的點數是:%d"%(t,com))
         if((c+d)<com):
-            print("你輸了");
-            i=i-i1;
-            print("剩餘籌碼:%d"%i);
+            print("你輸了")
+            i=i-i1
+            print("剩餘籌碼:%d"%i)
         elif((c+d)>com):
-            print("你贏了\n\n");
-            i=i+i1;
-            print("剩餘籌碼:%d",i);
-        else:print("平手");
+            print("你贏了\n\n")
+            i=i+i1
+            print("剩餘籌碼:%d",i)
+        else:print("平手")

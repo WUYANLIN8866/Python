@@ -51,7 +51,9 @@ while(1):
                             print("你贏了\n\n");
                             i=i+i1;
                             print("剩餘籌碼:%d"%i);
-                        else:print("平手");
+                        else:
+                            print("平手")
+                            print("剩餘籌碼:%d"%i)
             else:
                 t=c+d+f;
                 print("你的牌是 %d %d %d  共%d點"%(c,d,f,t))

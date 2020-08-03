@@ -1,5 +1,6 @@
 import random
-while(1):
+i = 1
+while(i > 0):
     i=input("請輸入籌碼:")
     i1=input("請下注:")
     c = random.randrange(10)+1

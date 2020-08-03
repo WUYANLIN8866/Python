@@ -1,6 +1,5 @@
 import random
-i = 1
-while(i > 0):
+while(1):
     i=input("請輸入籌碼:")
     i1=input("請下注:")
     c = random.randrange(10)+1
@@ -58,8 +57,7 @@ while(i > 0):
                 print("你的牌是 %d %d %d  共%d點"%(c,d,f,t))
                 com=random.randrange(20)+1
                 if(com<16):com=com+6;
-                if(com<16):com=com+6;
-                print("你的點數是%d    電腦的點數是:%d"%(t,com))
+                    print("你的點數是%d    電腦的點數是:%d"%(t,com))
                 if((c+d+f)<com):
                     print("你輸了");
                     i=i-i1;

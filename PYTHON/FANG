@@ -1,0 +1,24 @@
+#Main
+import Funtion_base
+import Assets_data
+if ((Assets_data.LMR() > 2) and (Assets_data.FANG_Fall_in_one_day() > 1)) or ((Assets_data.cost() > Assets_data.FANG_Price())and(Assets_data.FANG_Fall_in_one_day() > 1)):
+    Funtion_base.Buy_FANG(1)
+    if 1.66 <Assets_data.LMR() < 1.75:
+        Funtion_base.Sell_TSMC(1)
+        
+        
+#Funtion_base
+def Buy_FANG(number):
+    print("Please Buyin:\n")
+    print("Stock number : 00757 \n")
+    print("Share :" , number*1000 , "\n")
+def Sell_TSMC(number):
+    print("Please Sell:\n")
+    print("Stock number : 2330 \n")
+    print("Share :" , number*1000 , "\n")
+    
+#Assets_data
+def LMR(): return 1.7
+def FANG_Fall_in_one_day(): return 1.3
+def cost():return 47.45
+def FANG_Price():return 46

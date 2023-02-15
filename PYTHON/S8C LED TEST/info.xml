@@ -1,0 +1,19 @@
+﻿<content>
+	<fixture>
+		<fixture fixturenumber="HMUA5WMB11" fixid="1"></fixture>
+    		<fixture fixturenumber="HMUA5WMB12" fixid="2"></fixture>
+    		<fixture fixturenumber="HMUA5WMB13" fixid="3"></fixture>
+    		<fixture fixturenumber="HMUA5WMB14" fixid="4"></fixture>
+			<fixture fixturenumber="HMUA5WMB15" fixid="5"></fixture>
+    		<fixture fixturenumber="HMUA5WMB16" fixid="6"></fixture>
+    		<fixture fixturenumber="HMUA5WMB17" fixid="7"></fixture>
+    		<fixture fixturenumber="HMUA5WMB18" fixid="8"></fixture>
+	</fixture>
+	<PhotoTestFolder>D:\\Pycharm\\Python_test_folder\\S8C_LED\\</PhotoTestFolder>
+	<PhotoPathText>D:\Pycharm\Python_test_folder\S8C_LED\</PhotoPathText>
+	<WxH>1280x740</WxH>
+	<TitleName>S8C Led Test</TitleName>
+	<PresetSN>Wait run file</PresetSN>
+	<Reviewlable>Please review and choose!!</Reviewlable>
+	<Log>0</Log>
+</content>
